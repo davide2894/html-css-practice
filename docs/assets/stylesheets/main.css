@@ -51,7 +51,7 @@ table {
 /*
     ----------------------------
     ----------------------------
-        Custom styles
+            CUSTOM STYLES
     ----------------------------
     ----------------------------
 */
@@ -107,7 +107,7 @@ cite, em {
 /*
     --------------------------
     --------------------------
-            Links
+            LINKS
     --------------------------
     --------------------------
 */
@@ -116,7 +116,7 @@ a {
     text-decoration: none;
 }
 a:hover {
-    color: #a9b2b9;
+    color:  #a9b2b9;
 }
 p a {
     border-bottom: 1px solid #dfe2e5;
@@ -138,7 +138,7 @@ p a {
 /*
     ---------------------------
     ---------------------------
-            Navigation
+            NAVIGATION
     ---------------------------
     ---------------------------
 */
@@ -163,7 +163,7 @@ p a {
 /*
     ---------------------------
     ---------------------------
-            Rows
+                ROWS
     ---------------------------
     ---------------------------
 */
@@ -186,7 +186,7 @@ p a {
 /*
     ----------------------------
     ----------------------------
-            GRID
+                GRID
     ----------------------------
     ----------------------------
 */
@@ -226,9 +226,7 @@ p a {
 
 /*
     -----------------------
-    -----------------------
-        Clearfix
-    -----------------------
+    Clearfix
     -----------------------
 */
 
@@ -259,9 +257,7 @@ h1, h2, h3, h5, p {
 
 /*
     -------------------------
-    -------------------------
     Leads
-    -------------------------
     -------------------------
 */
 .lead {
@@ -391,6 +387,68 @@ h1, h2, h3, h5, p {
 .speaker {
     margin-bottom: 44px;
 }
+
+/*
+    ------------------------
+    ------------------------
+            Schedule
+    ------------------------
+    ------------------------
+*/
+table {
+    margin-top: 44px;
+    width: 100%
+}
+table:last-child: {
+    margin-bottom: 0;
+}
+th,
+td {
+    padding-bottom: 22px;
+}
+th {
+    padding-right: 44px;
+    text-align: right;
+    width: 20%;
+}
+td {
+    width: 40%;
+}
+tbody th {
+    color: #a9b2b9;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding-top: 22px;
+}
+tbody td {
+    border-top: 1px solid #dfe2e5;
+    padding-top: 21px;
+}
+tbody td:first-of-type {
+    padding-left: 0;
+}
+tbody td:only-of-type {
+    padding-left: 0;
+    padding-right: 0;
+}
+tbody a {
+    color: #888;
+}
+tbody h4 {
+    margin-bottom: 0;
+}
+thead th {
+    color: #648880;
+    font-size: 24px;
+}
+.schedule-offset {
+    color: #a9b2b9;
+}
+
+
+
+
 
 /*
     -------------------------
